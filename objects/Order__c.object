@@ -1,0 +1,1579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Order_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Order_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <label>Order</label>
+    <nameField>
+        <displayFormat>{0000}</displayFormat>
+        <label>Order Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Orders</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <searchLayouts/>
+    <sharingModel>Private</sharingModel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>ETD__c</fullName>
+        <externalId>false</externalId>
+        <label>ETD</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Days__c</fullName>
+        <externalId>false</externalId>
+        <label>Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rate__c</fullName>
+        <externalId>false</externalId>
+        <label>Rate %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>X001__c</fullName>
+        <externalId>false</externalId>
+        <label>001</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <externalId>false</externalId>
+        <formula>BLANKVALUE(TEXT( Supplier__r.Country__c ), &apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Country</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Product</label>
+        <referenceTo>Product__c</referenceTo>
+        <relationshipLabel>Orders</relationshipLabel>
+        <relationshipName>Orders</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Shipper__c</fullName>
+        <externalId>false</externalId>
+        <label>Shipper</label>
+        <length>199</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Value_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Value 1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Value_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Value 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>auto_no__c</fullName>
+        <displayFormat>{00}</displayFormat>
+        <externalId>false</externalId>
+        <label>auto no</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Country1__c</fullName>
+        <externalId>false</externalId>
+        <label>Country1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>India</fullName>
+                    <default>false</default>
+                    <label>India</label>
+                </value>
+                <value>
+                    <fullName>Belgium</fullName>
+                    <default>false</default>
+                    <label>Belgium</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Supplier__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Supplier</label>
+        <referenceTo>Supplier__c</referenceTo>
+        <relationshipLabel>Orders</relationshipLabel>
+        <relationshipName>Orders</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Customers__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Customers</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Orders</relationshipLabel>
+        <relationshipName>Orders</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Incoterms__c</fullName>
+        <externalId>false</externalId>
+        <label>Incoterms</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Inc1</fullName>
+                    <default>false</default>
+                    <label>Inc1</label>
+                </value>
+                <value>
+                    <fullName>Inc2</fullName>
+                    <default>false</default>
+                    <label>Inc2</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PO_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>PO Number</label>
+        <length>55</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quay_Rent__c</fullName>
+        <externalId>false</externalId>
+        <label>Quay Rent</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BTW_VAT_GST__c</fullName>
+        <externalId>false</externalId>
+        <formula>Total_Price__c  *  Rate__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>BTW/VAT/GST</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Current_ETA__c</fullName>
+        <externalId>false</externalId>
+        <label>Current ETA</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUS_Updated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>OUS Updated</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Our_PO_date__c</fullName>
+        <externalId>false</externalId>
+        <label>Our PO date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>PLANNED_ETA__c</fullName>
+        <externalId>false</externalId>
+        <label>PLANNED ETA</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PLANNED_ETD__c</fullName>
+        <externalId>false</externalId>
+        <label>PLANNED ETD</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tank_Rental__c</fullName>
+        <externalId>false</externalId>
+        <label>Tank Rental</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Grand Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Notify_Party__c</fullName>
+        <externalId>false</externalId>
+        <label>Notify_Party</label>
+        <length>199</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Documentation__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Documentation</label>
+        <referenceTo>Documentation__c</referenceTo>
+        <relationshipLabel>Orders</relationshipLabel>
+        <relationshipName>Orders</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Purchase_RATE__c</fullName>
+        <externalId>false</externalId>
+        <label>Purchase RATE</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Auto_no_nnnnnn__c</fullName>
+        <displayFormat>{000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Auto no nnnnnn</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Email_Supplier__c</fullName>
+        <externalId>false</externalId>
+        <formula>Supplier__r.Email__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Email Supplier</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Supplier_Names__c</fullName>
+        <externalId>false</externalId>
+        <formula>Supplier__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Supplier Names</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>New_Auto_Number__c</fullName>
+        <displayFormat>{000}</displayFormat>
+        <externalId>false</externalId>
+        <label>New Auto Number</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Rich_Text_Order__c</fullName>
+        <externalId>false</externalId>
+        <label>Rich Text Order</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Currency_Invoice__c</fullName>
+        <externalId>false</externalId>
+        <label>Currency Invoice</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>INR</fullName>
+                    <default>false</default>
+                    <label>INR</label>
+                </value>
+                <value>
+                    <fullName>EURO</fullName>
+                    <default>false</default>
+                    <label>EURO</label>
+                </value>
+                <value>
+                    <fullName>EUR</fullName>
+                    <default>false</default>
+                    <label>EUR</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Customer_PO_Rate__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer PO Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>New_Order_Number__c</fullName>
+        <displayFormat>{000}</displayFormat>
+        <externalId>false</externalId>
+        <label>New Order Number</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Order_Belongs_to__c</fullName>
+        <externalId>false</externalId>
+        <label>Order Belongs to</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Delay_In_Delivery__c</fullName>
+        <externalId>false</externalId>
+        <label>Delay In Delivery</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Special_Conditions__c</fullName>
+        <externalId>false</externalId>
+        <label>Special_Conditions</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Supplier_Consignee__c</fullName>
+        <externalId>false</externalId>
+        <label>Supplier Consignee</label>
+        <length>99</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Port_of_Loading_POL__c</fullName>
+        <externalId>false</externalId>
+        <label>Port of Loading (POL)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Customer_OUS_10_7_23__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Customer OUS 10.7.23</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Customer_PO_Date_Qty__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer PO Date &amp; Qty.</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Factuur_nr_Invoice_N__c</fullName>
+        <externalId>false</externalId>
+        <label>Factuur_nr_Invoice_N</label>
+        <length>88</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Invoice_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Invoice Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Eurofactor_Assignment__c</fullName>
+        <externalId>false</externalId>
+        <label>Eurofactor Assignment</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>s_contact_person_name__c</fullName>
+        <externalId>false</externalId>
+        <label>s contact person name</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Invoice_Value__c</fullName>
+        <externalId>false</externalId>
+        <formula>Customer_PO_Rate__c  *  Loaded_Qty_in_Tank_Container_to_be_Inv__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Customer Invoice Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Port_of_Destination_POD__c</fullName>
+        <externalId>false</externalId>
+        <label>Port of Destination (POD)</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Purchase_Confirmation_N__c</fullName>
+        <externalId>false</externalId>
+        <label>Purchase Confirmation N°</label>
+        <length>99</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Supplier_Contact_Person__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Supplier Contact Person</label>
+        <referenceTo>Supplier_Contact_Person__c</referenceTo>
+        <relationshipLabel>Orders</relationshipLabel>
+        <relationshipName>Orders</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Verkoper_Seller_Address__c</fullName>
+        <externalId>false</externalId>
+        <formula>Supplier__r.Verkoper_Seller_Address__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Verkoper / Seller Address</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>haulier_and_rate_if_DDP__c</fullName>
+        <externalId>false</externalId>
+        <label>haulier and rate (if DDP)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tank_Owner_BL_if_ISOTANK__c</fullName>
+        <externalId>false</externalId>
+        <label>Tank Owner (BL), if ISOTANK</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>supplier_Inv_No_and_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>supplier Inv No and Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Formula_Delay_In_Delivery__c</fullName>
+        <externalId>false</externalId>
+        <formula>Bloom_best_possible_delivery_date__c  -  Customer_Reqd_Delivery_date_as_per_PO__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Formula Delay In Delivery</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Invoice_Valuedata__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Invoice Value data</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Payment_terms_for_Customer__c</fullName>
+        <externalId>false</externalId>
+        <label>Payment terms for Customer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>100% Advance</fullName>
+                    <default>false</default>
+                    <label>100% Advance</label>
+                </value>
+                <value>
+                    <fullName>(Numbers) days after delivery</fullName>
+                    <default>false</default>
+                    <label>(Numbers) days after delivery</label>
+                </value>
+                <value>
+                    <fullName>(Numbers) days against copy of B/L</fullName>
+                    <default>false</default>
+                    <label>(Numbers) days against copy of B/L</label>
+                </value>
+                <value>
+                    <fullName>(Number) days from Invoice date</fullName>
+                    <default>false</default>
+                    <label>(Number) days from Invoice date</label>
+                </value>
+                <value>
+                    <fullName>(%Value) TT against copy of B/L</fullName>
+                    <default>false</default>
+                    <label>(%Value) TT against copy of B/L</label>
+                </value>
+                <value>
+                    <fullName>(%Value) against copy of B/L</fullName>
+                    <default>false</default>
+                    <label>(%Value) against copy of B/L</label>
+                </value>
+                <value>
+                    <fullName>(%Value) Advance &amp;(%Value) Balance against B/L</fullName>
+                    <default>false</default>
+                    <label>(%Value) Advance &amp;(%Value) Balance against B/L</label>
+                </value>
+                <value>
+                    <fullName>(%Value) Advance &amp; (%Value) Balance against delivery</fullName>
+                    <default>false</default>
+                    <label>(%Value) Advance &amp; (%Value) Balance against delivery</label>
+                </value>
+                <value>
+                    <fullName>(%Value) Advance, Balance (%Value) after (Number) days of Delivery</fullName>
+                    <default>false</default>
+                    <label>(%Value) Advance, Balance (%Value) after (Number) days of Delivery</label>
+                </value>
+                <value>
+                    <fullName>LC at Sight</fullName>
+                    <default>false</default>
+                    <label>LC at Sight</label>
+                </value>
+                <value>
+                    <fullName>Others (option to update manually)</fullName>
+                    <default>false</default>
+                    <label>Others (option to update manually)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Pick_Up_Quay_Number_if_DDP__c</fullName>
+        <externalId>false</externalId>
+        <label>Pick Up Quay Number (if DDP)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shipping_Line_Vessel_BL_No__c</fullName>
+        <externalId>false</externalId>
+        <label>Shipping Line (Vessel, BL No.)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Payment_Terms_with_Customer__c</fullName>
+        <externalId>false</externalId>
+        <label>Payment Terms with Customer</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>THC_Invoice_from_Tank_Owner__c</fullName>
+        <externalId>false</externalId>
+        <label>THC Invoice from Tank Owner</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Empty_reference_announcement__c</fullName>
+        <externalId>false</externalId>
+        <label>Empty reference + announcement</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Supplier_COntact_Person_Email__c</fullName>
+        <externalId>false</externalId>
+        <formula>Supplier_Contact_Person__r.Email__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Supplier COntact Person Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Totaal_Total_Incl_BTW_VAT_GST__c</fullName>
+        <externalId>false</externalId>
+        <formula>Total_Price__c  *  BTW_VAT_GST__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Totaal/Total Incl. BTW/VAT/(GST)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Haulier_Invoice_received_or_not__c</fullName>
+        <externalId>false</externalId>
+        <label>Haulier Invoice, received or not</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Supplier_Contact_Person_formula__c</fullName>
+        <externalId>false</externalId>
+        <formula>Supplier_Contact_Person__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Supplier Contact Person formula</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Delivery_Address_if_DDP__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Delivery Address (if DDP)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Payment_terms_for_Purchase_Order__c</fullName>
+        <externalId>false</externalId>
+        <label>Payment terms for Purchase Order</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Allocation_of_Tank_No_to_Customer__c</fullName>
+        <externalId>false</externalId>
+        <label>Allocation of Tank No. to Customer</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bloom_best_possible_delivery_date__c</fullName>
+        <externalId>false</externalId>
+        <label>Bloom best possible delivery date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Country_Wise_Purchase_Confirmation__c</fullName>
+        <externalId>false</externalId>
+        <label>Country Wise Purchase Confirmation</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>India</fullName>
+                    <default>false</default>
+                    <label>India</label>
+                </value>
+                <value>
+                    <fullName>Belgium</fullName>
+                    <default>false</default>
+                    <label>Belgium</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Delivery_Terms_to_Customer_as_in_PO__c</fullName>
+        <externalId>false</externalId>
+        <label>Delivery Terms to Customer as in PO</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Reqd_Delivery_date_as_per_PO__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Reqd. Delivery date as per PO</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>CMR_Received_or_Not_from_Haulier_after__c</fullName>
+        <externalId>false</externalId>
+        <label>CMR Received or Not (from Haulier, after</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Current_Status_Location_as_per_trackin__c</fullName>
+        <externalId>false</externalId>
+        <label>Current Status - Location as per trackin</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Loaded_Qty_in_Tank_Container_to_be_Inv__c</fullName>
+        <externalId>false</externalId>
+        <label>Loaded Qty. in Tank Container (to be Inv</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vandevyver_Invoice_for_custom_clearance__c</fullName>
+        <externalId>false</externalId>
+        <label>Vandevyver Invoice for custom clearance</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Payment_terms_Purchase_Order_to_Supplier__c</fullName>
+        <externalId>false</externalId>
+        <label>Payment terms Purchase Order to Supplier</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>100%Advance</fullName>
+                    <default>false</default>
+                    <label>100%Advance</label>
+                </value>
+                <value>
+                    <fullName>(%Value) Adv &amp; (%Value) bal against B/L copy, (Number) days before ETA</fullName>
+                    <default>false</default>
+                    <label>(%Value) Adv &amp; (%Value) bal against B/L copy, (Number) days before ETA</label>
+                </value>
+                <value>
+                    <fullName>(%Value) against B/L copy, 10 days before ETA</fullName>
+                    <default>false</default>
+                    <label>(%Value) against B/L copy, 10 days before ETA</label>
+                </value>
+                <value>
+                    <fullName>(Numbers) days from invoice date</fullName>
+                    <default>false</default>
+                    <label>(Numbers) days from invoice date</label>
+                </value>
+                <value>
+                    <fullName>After (Number) days from date of Delivery</fullName>
+                    <default>false</default>
+                    <label>After (Number) days from date of Delivery</label>
+                </value>
+                <value>
+                    <fullName>(%Value) Adv &amp; bal (%Value) against B/L copy</fullName>
+                    <default>false</default>
+                    <label>(%Value) Adv &amp; bal (%Value) against B/L copy</label>
+                </value>
+                <value>
+                    <fullName>(%Value) Adv Payment and (%Value) bal after (Number) days from B/L date</fullName>
+                    <default>false</default>
+                    <label>(%Value) Adv Payment and (%Value) bal after (Number) days from B/L date</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <recordTypes>
+        <fullName>Procurement_Section</fullName>
+        <active>true</active>
+        <label>Procurement Section</label>
+        <picklistValues>
+            <picklist>Country1__c</picklist>
+            <values>
+                <fullName>Belgium</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>India</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Country_Wise_Purchase_Confirmation__c</picklist>
+            <values>
+                <fullName>Belgium</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>India</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Currency_Invoice__c</picklist>
+            <values>
+                <fullName>EUR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EURO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INR</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Incoterms__c</picklist>
+            <values>
+                <fullName>Inc1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inc2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Payment_terms_Purchase_Order_to_Supplier__c</picklist>
+            <values>
+                <fullName>%28%25Value%29 Adv %26 %28%25Value%29 bal against B%2FL copy%2C %28Number%29 days before ETA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28%25Value%29 Adv %26 bal %28%25Value%29 against B%2FL copy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28%25Value%29 Adv Payment and %28%25Value%29 bal after %28Number%29 days from B%2FL date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28%25Value%29 against B%2FL copy%2C 10 days before ETA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28Numbers%29 days from invoice date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>100%25Advance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>After %28Number%29 days from date of Delivery</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Payment_terms_for_Customer__c</picklist>
+            <values>
+                <fullName>%28%25Value%29 Advance %26 %28%25Value%29 Balance against delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28%25Value%29 Advance %26%28%25Value%29 Balance against B%2FL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28%25Value%29 Advance%2C Balance %28%25Value%29 after %28Number%29 days of Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28%25Value%29 TT against copy of B%2FL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28%25Value%29 against copy of B%2FL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28Number%29 days from Invoice date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28Numbers%29 days after delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28Numbers%29 days against copy of B%2FL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>100%25 Advance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LC at Sight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Others %28option to update manually%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Distribution_Section</fullName>
+        <active>true</active>
+        <label>Distribution Section</label>
+        <picklistValues>
+            <picklist>Country1__c</picklist>
+            <values>
+                <fullName>Belgium</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>India</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Country_Wise_Purchase_Confirmation__c</picklist>
+            <values>
+                <fullName>Belgium</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>India</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Currency_Invoice__c</picklist>
+            <values>
+                <fullName>EUR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EURO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INR</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Incoterms__c</picklist>
+            <values>
+                <fullName>Inc1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inc2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Payment_terms_Purchase_Order_to_Supplier__c</picklist>
+            <values>
+                <fullName>%28%25Value%29 Adv %26 %28%25Value%29 bal against B%2FL copy%2C %28Number%29 days before ETA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28%25Value%29 Adv %26 bal %28%25Value%29 against B%2FL copy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28%25Value%29 Adv Payment and %28%25Value%29 bal after %28Number%29 days from B%2FL date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28%25Value%29 against B%2FL copy%2C 10 days before ETA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28Numbers%29 days from invoice date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>100%25Advance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>After %28Number%29 days from date of Delivery</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Payment_terms_for_Customer__c</picklist>
+            <values>
+                <fullName>%28%25Value%29 Advance %26 %28%25Value%29 Balance against delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28%25Value%29 Advance %26%28%25Value%29 Balance against B%2FL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28%25Value%29 Advance%2C Balance %28%25Value%29 after %28Number%29 days of Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28%25Value%29 TT against copy of B%2FL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28%25Value%29 against copy of B%2FL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28Number%29 days from Invoice date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28Numbers%29 days after delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28Numbers%29 days against copy of B%2FL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>100%25 Advance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LC at Sight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Others %28option to update manually%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Customer_Order_Information</fullName>
+        <active>true</active>
+        <label>Customer Order Information</label>
+        <picklistValues>
+            <picklist>Country1__c</picklist>
+            <values>
+                <fullName>Belgium</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>India</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Country_Wise_Purchase_Confirmation__c</picklist>
+            <values>
+                <fullName>Belgium</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>India</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Currency_Invoice__c</picklist>
+            <values>
+                <fullName>EUR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EURO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INR</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Incoterms__c</picklist>
+            <values>
+                <fullName>Inc1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inc2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Payment_terms_Purchase_Order_to_Supplier__c</picklist>
+            <values>
+                <fullName>%28%25Value%29 Adv %26 %28%25Value%29 bal against B%2FL copy%2C %28Number%29 days before ETA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28%25Value%29 Adv %26 bal %28%25Value%29 against B%2FL copy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28%25Value%29 Adv Payment and %28%25Value%29 bal after %28Number%29 days from B%2FL date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28%25Value%29 against B%2FL copy%2C 10 days before ETA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28Numbers%29 days from invoice date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>100%25Advance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>After %28Number%29 days from date of Delivery</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Payment_terms_for_Customer__c</picklist>
+            <values>
+                <fullName>%28%25Value%29 Advance %26 %28%25Value%29 Balance against delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28%25Value%29 Advance %26%28%25Value%29 Balance against B%2FL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28%25Value%29 Advance%2C Balance %28%25Value%29 after %28Number%29 days of Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28%25Value%29 TT against copy of B%2FL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28%25Value%29 against copy of B%2FL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28Number%29 days from Invoice date</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28Numbers%29 days after delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%28Numbers%29 days against copy of B%2FL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>100%25 Advance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LC at Sight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Others %28option to update manually%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+</CustomObject>
